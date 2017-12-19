@@ -1,0 +1,16 @@
+PODS:
+  - UITextPlaceholder (0.1.0)
+
+DEPENDENCIES:
+  - UITextPlaceholder (from `../`)
+
+EXTERNAL SOURCES:
+  UITextPlaceholder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UITextPlaceholder: 9a6b9505ae93766633ad28120eea967225cca92b
+
+PODFILE CHECKSUM: 039b36dd335997caa596171015c401b8316c9589
+
+COCOAPODS: 1.2.1

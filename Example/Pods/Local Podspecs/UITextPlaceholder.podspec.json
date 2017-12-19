@@ -1,0 +1,22 @@
+{
+  "name": "UITextPlaceholder",
+  "version": "0.1.0",
+  "summary": "A short description of UITextPlaceholder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/basiliusic/UITextPlaceholder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "basiliusic": "basiliusic@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/basiliusic/UITextPlaceholder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UITextPlaceholder/Classes/**/*"
+}
