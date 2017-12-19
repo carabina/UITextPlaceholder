@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITextPlaceholder_Example' do
+  pod 'UITextPlaceholder', :path => '../'
+
+  target 'UITextPlaceholder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
