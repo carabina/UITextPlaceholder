@@ -1,5 +1,5 @@
 PODS:
-  - UITextPlaceholder (0.1.0)
+  - UITextPlaceholder (0.0.1)
 
 DEPENDENCIES:
   - UITextPlaceholder (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UITextPlaceholder: 9a6b9505ae93766633ad28120eea967225cca92b
+  UITextPlaceholder: 33aa62699cde10d67218d2a2abc4f40dbdf326b8
 
 PODFILE CHECKSUM: 039b36dd335997caa596171015c401b8316c9589
 

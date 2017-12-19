@@ -6,13 +6,13 @@
 //  Copyright (c) 2017 basiliusic. All rights reserved.
 //
 
-#import "UIViewController.h"
+#import "ViewController.h"
 
-@interface UIViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation UIViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

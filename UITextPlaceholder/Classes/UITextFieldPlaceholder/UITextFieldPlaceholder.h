@@ -13,5 +13,5 @@
 
 @property (nonatomic, assign) IBInspectable BOOL useTextFieldPlaceholderColor;
 
-@property (nonatomic, strong, readonly) UIColor *color;
+@property (nonatomic, strong) UIColor *color;
 @end

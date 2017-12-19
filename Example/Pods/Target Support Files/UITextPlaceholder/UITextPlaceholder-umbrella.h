@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UITextFieldPlaceholder.h"
+#import "UITextPlaceholder.h"
+#import "UITextViewPlaceholder.h"
 
 FOUNDATION_EXPORT double UITextPlaceholderVersionNumber;
 FOUNDATION_EXPORT const unsigned char UITextPlaceholderVersionString[];

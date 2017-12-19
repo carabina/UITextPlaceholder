@@ -1,11 +1,10 @@
 {
   "name": "UITextPlaceholder",
-  "version": "0.1.0",
-  "summary": "A short description of UITextPlaceholder.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "Placeholder for UITextField and UITextView",
   "homepage": "https://github.com/basiliusic/UITextPlaceholder",
   "license": {
-    "type": "MIT",
+    "type": "LGPL",
     "file": "LICENSE"
   },
   "authors": {
@@ -13,10 +12,12 @@
   },
   "source": {
     "git": "https://github.com/basiliusic/UITextPlaceholder.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UITextPlaceholder/Classes/**/*"
+  "source_files": "UITextPlaceholder/Classes/**/*.{h,m}",
+  "public_header_files": "UITextPlaceholder/Classes/**/*.h",
+  "frameworks": "UIKit"
 }

@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19193AEAC2E6349EAC8E9046CF7C7792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		359F61E59A185CB12A21DE650D506F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		164FD5AD88E84F04CA120F0A7258F455 /* UITextPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D1F9DFB87526C33B6789622D3E69E2 /* UITextPlaceholder.m */; };
+		18B1D0B6D0192CD1A7B3F10FE3CEB0CB /* UITextFieldPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D202FA4E6F25DF46C619562EF89683 /* UITextFieldPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19193AEAC2E6349EAC8E9046CF7C7792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		359F61E59A185CB12A21DE650D506F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		418A0B726AD3CE777042B48D052F99EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		5D591C8F32874C1D1827D71A18529E1F /* UITextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 445F6F71F2FBFED0C38D44151E40B837 /* UITextViewPlaceholder.m */; };
+		702044664F758DAD1135786B21ADDD5A /* UITextPlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FDDA18571204B1557847A4CB5ADA2A /* UITextPlaceholder-dummy.m */; };
+		74A83F7BE1BC82D410D360E407CBC82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		84425720EDAE848A2F0D506F6F5187AC /* UITextPlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD2FBA8048F30A0DFD8C3C9BE33925 /* UITextPlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86BE81B49DBCF42F8E034346E855AA6A /* Pods-UITextPlaceholder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FADCCA42B43778CDD1342E0DE6C8354 /* Pods-UITextPlaceholder_Tests-dummy.m */; };
+		89F49956C15638FEA1682DBCA683A05A /* UITextPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0A0EC33E601CBAC138CE8370B6796F /* UITextPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC062E953EFE04FC833EE9A9D1AE99A /* Pods-UITextPlaceholder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01F2B866D9DE76A1C8122330FE98AB4 /* Pods-UITextPlaceholder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963116ADD206CA17EB0798074083EA99 /* Pods-UITextPlaceholder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E46D832783C6990B236439A1E74FE5 /* Pods-UITextPlaceholder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABA32F11017E8B048123174F9BCA6889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B3D1D27795C10D40414EB8296A66890B /* UITextPlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD2FBA8048F30A0DFD8C3C9BE33925 /* UITextPlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991BED7E8DCF2BF5881A8F59BB523B3E /* UITextFieldPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 296AAF7EB2A3110B14D5C28E727B6EC9 /* UITextFieldPlaceholder.m */; };
+		99EE47F41D08C0E10B7EE133DCF1D769 /* UITextViewPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 677922D208BCF73DEDB9B91D4CB4B8A6 /* UITextViewPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D6D01D3DFEB0B1DBBBB050F46327BE /* Pods-UITextPlaceholder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 444FB13C25D9B87728CC1AA0C7090C88 /* Pods-UITextPlaceholder_Example-dummy.m */; };
-		EA225E7A73C933309946FCE72BFE0F46 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED4C521A652B775E1E1AD266BFA9AF9 /* ReplaceMe.m */; };
-		EE0E8A1EBD2BE942649A00A07AE0447F /* UITextPlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FDDA18571204B1557847A4CB5ADA2A /* UITextPlaceholder-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +37,22 @@
 
 /* Begin PBXFileReference section */
 		09D4644043F2AD9FEB5E793DCA686F9D /* Pods-UITextPlaceholder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextPlaceholder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0A0EC33E601CBAC138CE8370B6796F /* UITextPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UITextPlaceholder.h; sourceTree = "<group>"; };
 		10707AE043E39AA9DB32CDEC52829771 /* Pods-UITextPlaceholder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextPlaceholder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E2F5DC84DEF59894244BD6A5DB8EBE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E46D832783C6990B236439A1E74FE5 /* Pods-UITextPlaceholder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextPlaceholder_Example-umbrella.h"; sourceTree = "<group>"; };
+		296AAF7EB2A3110B14D5C28E727B6EC9 /* UITextFieldPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UITextFieldPlaceholder.m; sourceTree = "<group>"; };
 		2AF4863E8FB14879166DC30F8BAD6B51 /* Pods-UITextPlaceholder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UITextPlaceholder_Example.modulemap"; sourceTree = "<group>"; };
 		33FDD204512D7F4E0BB4312C0DECC436 /* UITextPlaceholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UITextPlaceholder.modulemap; sourceTree = "<group>"; };
 		438A760E243224A72B4435BDACC0A238 /* Pods-UITextPlaceholder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextPlaceholder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		444FB13C25D9B87728CC1AA0C7090C88 /* Pods-UITextPlaceholder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITextPlaceholder_Example-dummy.m"; sourceTree = "<group>"; };
+		445F6F71F2FBFED0C38D44151E40B837 /* UITextViewPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UITextViewPlaceholder.m; sourceTree = "<group>"; };
 		4568224B28E43388B3E7041D735818F4 /* UITextPlaceholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UITextPlaceholder.xcconfig; sourceTree = "<group>"; };
 		585F7FDE52AD4208105639BF1D012FC2 /* Pods-UITextPlaceholder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UITextPlaceholder_Tests.modulemap"; sourceTree = "<group>"; };
 		5A7DECF34DAA7E087285F42E227F3D67 /* Pods-UITextPlaceholder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextPlaceholder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5ED4C521A652B775E1E1AD266BFA9AF9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		621B3337C4AF15535111EE6F4BE8EEC1 /* Pods-UITextPlaceholder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextPlaceholder_Example-resources.sh"; sourceTree = "<group>"; };
 		653C7AAADCD63BA8AA4B723DD80A0167 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677922D208BCF73DEDB9B91D4CB4B8A6 /* UITextViewPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UITextViewPlaceholder.h; sourceTree = "<group>"; };
 		7CA5AE0659303B96729BCB9A6E2F3489 /* Pods-UITextPlaceholder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITextPlaceholder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7CF7B0209F98A18B0F8B2A4A36880887 /* Pods_UITextPlaceholder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITextPlaceholder_Tests.framework; path = "Pods-UITextPlaceholder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FADCCA42B43778CDD1342E0DE6C8354 /* Pods-UITextPlaceholder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITextPlaceholder_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -54,10 +62,14 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5F402D3C62E69F744E1030B40DBADB2 /* Pods_UITextPlaceholder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITextPlaceholder_Example.framework; path = "Pods-UITextPlaceholder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2085A6E6D85CCD7B75E87836F6FC7A /* Pods-UITextPlaceholder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITextPlaceholder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C0B71091FAC75470B768DE97E04FB7E7 /* Pods-UITextPlaceholder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextPlaceholder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0FDDA18571204B1557847A4CB5ADA2A /* UITextPlaceholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextPlaceholder-dummy.m"; sourceTree = "<group>"; };
 		C24507DC79B65FABC399FC1CE740FC14 /* Pods-UITextPlaceholder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextPlaceholder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CBAD832163069C5F46F3683B7C3FFA18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D1F9DFB87526C33B6789622D3E69E2 /* UITextPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UITextPlaceholder.m; sourceTree = "<group>"; };
+		D5D202FA4E6F25DF46C619562EF89683 /* UITextFieldPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UITextFieldPlaceholder.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DDF0F7175C893A744A1EC21C89C127D5 /* UITextPlaceholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextPlaceholder-prefix.pch"; sourceTree = "<group>"; };
 		F01F2B866D9DE76A1C8122330FE98AB4 /* Pods-UITextPlaceholder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextPlaceholder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FEF41DB05CEDBE6612253F50CECB23BC /* UITextPlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextPlaceholder.framework; path = UITextPlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,11 +85,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D18B331959D1620DD630B7836EB97B /* Frameworks */ = {
+		6FBB1CC71B2E8E192AE04D0367D306FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA32F11017E8B048123174F9BCA6889 /* Foundation.framework in Frameworks */,
+				74A83F7BE1BC82D410D360E407CBC82A /* Foundation.framework in Frameworks */,
+				418A0B726AD3CE777042B48D052F99EE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +137,23 @@
 			path = "Example/Pods/Target Support Files/UITextPlaceholder";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		69F54B79377322FA4921B4F653CB3E04 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +167,19 @@
 			isa = PBXGroup;
 			children = (
 				217EDF51E7E1E6B8F44BBF9A797B2572 /* Support Files */,
-				8D87A1FA11A82B74E082837EDA4E703D /* UITextPlaceholder */,
+				6C7EDB2F63C9F9D537AF0D0E60CEA612 /* UITextPlaceholder */,
 			);
 			name = UITextPlaceholder;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		6C7EDB2F63C9F9D537AF0D0E60CEA612 /* UITextPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				DD4E68796D7F647DA05AC3E18E6C89F3 /* Classes */,
+			);
+			name = UITextPlaceholder;
+			path = UITextPlaceholder;
 			sourceTree = "<group>";
 		};
 		78B08891C8D876B189FD6508EB410508 /* Products */ = {
@@ -158,19 +197,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				B349645939090279C444BC5FD288E4B1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				78B08891C8D876B189FD6508EB410508 /* Products */,
 				69F54B79377322FA4921B4F653CB3E04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D87A1FA11A82B74E082837EDA4E703D /* UITextPlaceholder */ = {
+		ADDA4946C4AD37CE1646653A7262D3B2 /* UITextFieldPlaceholder */ = {
 			isa = PBXGroup;
 			children = (
-				C98C55F25B56D32D459B3B0523F73733 /* Classes */,
+				D5D202FA4E6F25DF46C619562EF89683 /* UITextFieldPlaceholder.h */,
+				296AAF7EB2A3110B14D5C28E727B6EC9 /* UITextFieldPlaceholder.m */,
 			);
-			name = UITextPlaceholder;
-			path = UITextPlaceholder;
+			name = UITextFieldPlaceholder;
+			path = UITextFieldPlaceholder;
 			sourceTree = "<group>";
 		};
 		B349645939090279C444BC5FD288E4B1 /* Development Pods */ = {
@@ -179,31 +219,6 @@
 				6C100A710FC81BDE6206B2910890F9D7 /* UITextPlaceholder */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C98C55F25B56D32D459B3B0523F73733 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5ED4C521A652B775E1E1AD266BFA9AF9 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D8449218DBF8F217F226878C07882B3C /* Pods-UITextPlaceholder_Example */ = {
@@ -224,6 +239,28 @@
 			path = "Target Support Files/Pods-UITextPlaceholder_Example";
 			sourceTree = "<group>";
 		};
+		DD4E68796D7F647DA05AC3E18E6C89F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A0EC33E601CBAC138CE8370B6796F /* UITextPlaceholder.h */,
+				D5D1F9DFB87526C33B6789622D3E69E2 /* UITextPlaceholder.m */,
+				ADDA4946C4AD37CE1646653A7262D3B2 /* UITextFieldPlaceholder */,
+				EF19C277D60FA7A039B43769F849C34C /* UITextViewPlaceholder */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF19C277D60FA7A039B43769F849C34C /* UITextViewPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				677922D208BCF73DEDB9B91D4CB4B8A6 /* UITextViewPlaceholder.h */,
+				445F6F71F2FBFED0C38D44151E40B837 /* UITextViewPlaceholder.m */,
+			);
+			name = UITextViewPlaceholder;
+			path = UITextViewPlaceholder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -235,11 +272,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E77C97AE12D68D15B5F46D4201BCCC3 /* Headers */ = {
+		1E35FC5602FF2F48DC58895A0B095320 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D1D27795C10D40414EB8296A66890B /* UITextPlaceholder-umbrella.h in Headers */,
+				18B1D0B6D0192CD1A7B3F10FE3CEB0CB /* UITextFieldPlaceholder.h in Headers */,
+				84425720EDAE848A2F0D506F6F5187AC /* UITextPlaceholder-umbrella.h in Headers */,
+				89F49956C15638FEA1682DBCA683A05A /* UITextPlaceholder.h in Headers */,
+				99EE47F41D08C0E10B7EE133DCF1D769 /* UITextViewPlaceholder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +333,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 382EF3D5DA812519C31621546A04F34C /* Build configuration list for PBXNativeTarget "UITextPlaceholder" */;
 			buildPhases = (
-				5FE99FA51E63DF80972FF1D86D0D8244 /* Sources */,
-				76D18B331959D1620DD630B7836EB97B /* Frameworks */,
-				3E77C97AE12D68D15B5F46D4201BCCC3 /* Headers */,
+				FAD12FBDFF8048D87282638029E1BE8C /* Sources */,
+				6FBB1CC71B2E8E192AE04D0367D306FD /* Frameworks */,
+				1E35FC5602FF2F48DC58895A0B095320 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,20 +383,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FE99FA51E63DF80972FF1D86D0D8244 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA225E7A73C933309946FCE72BFE0F46 /* ReplaceMe.m in Sources */,
-				EE0E8A1EBD2BE942649A00A07AE0447F /* UITextPlaceholder-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E52290DE0EE7A757D2172D31038F189F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6D6D01D3DFEB0B1DBBBB050F46327BE /* Pods-UITextPlaceholder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD12FBDFF8048D87282638029E1BE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991BED7E8DCF2BF5881A8F59BB523B3E /* UITextFieldPlaceholder.m in Sources */,
+				702044664F758DAD1135786B21ADDD5A /* UITextPlaceholder-dummy.m in Sources */,
+				164FD5AD88E84F04CA120F0A7258F455 /* UITextPlaceholder.m in Sources */,
+				5D591C8F32874C1D1827D71A18529E1F /* UITextViewPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

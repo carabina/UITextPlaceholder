@@ -8,19 +8,17 @@
 
 #import "UITextFieldPlaceholder.h"
 
-@import CoreText;
-
-static void *SetTextFieldTextContext = &SetTextFieldTextContext;
+static void *TextFieldTextContext = &TextFieldTextContext;
 
 @interface UITextFieldPlaceholder()
 @property (nonatomic, weak) id<UITextFieldDelegate> textFieldInitialDelegate;
-
-@property (nonatomic, strong) UIColor *color;
 
 @property (nonatomic, assign) BOOL addedObservers;
 @end
 
 @implementation UITextFieldPlaceholder
+@synthesize color = _color;
+
 #pragma mark - Initialization
 -(instancetype) initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder: aDecoder];
@@ -38,6 +36,14 @@ static void *SetTextFieldTextContext = &SetTextFieldTextContext;
     } else {
         self.textColor = color;
     }
+}
+
+-(UIColor *) color {
+    if(!_color) {
+        return [UIColor colorWithRed: 0.78 green: 0.78 blue: 0.804 alpha: 1];
+    }
+    
+    return _color;
 }
 
 -(instancetype) initWithFrame:(CGRect)frame {
@@ -63,20 +69,20 @@ static void *SetTextFieldTextContext = &SetTextFieldTextContext;
 
 -(void) addObservers {
     if(!self.addedObservers) {
-        [self addObserver: self forKeyPath: @"textField.text" options: NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context: SetTextFieldTextContext];
+        [self addObserver: self forKeyPath: @"textField.text" options: NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context: TextFieldTextContext];
         self.addedObservers = YES;
     }
 }
 
 -(void) removeObjservers {
     if(self.addedObservers) {
-        [self removeObserver: self forKeyPath: @"textField.text" context: SetTextFieldTextContext];
+        [self removeObserver: self forKeyPath: @"textField.text" context: TextFieldTextContext];
         self.addedObservers = NO;
     }
 }
 
 -(void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    if(context == SetTextFieldTextContext) {
+    if(context == TextFieldTextContext) {
         NSString *newString = change[NSKeyValueChangeNewKey];
         if(newString.length > 0) {
             [self moveOut];
